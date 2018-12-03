@@ -13,6 +13,17 @@ Add to your main.js file
 import SequentialEntrance from 'vue-sequential-entrance'
 Vue.use(SequentialEntrance);
 ```
+And now, in your component file, wrap a list of elements with <sequential-entrance> tag
+```html
+<template>
+  <section>
+    <sequential-entrance>
+      <div class="box" v-for="app in apps" :key="app">{{ app }}</div>
+    </sequential-entrance>
+  </section>
+</template>
+```
+
 
 #Customize with the following Props
 ```
