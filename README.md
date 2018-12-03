@@ -3,6 +3,7 @@ Vuejs Plugin for creating epic sequential animation entrances with a list of ele
 Zero effort.
 Really lightweight
 
+![](demo.gif)
 
 ## Installation
 In order to use into your vue project
