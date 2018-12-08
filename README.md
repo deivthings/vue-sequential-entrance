@@ -44,7 +44,7 @@ Sequential Entrance comes with four 'flavors': animation entrance from Top, from
 ### delay
 By default, the sequence animation have an interval of 250 milliseconds. If you need a faster or slower entrance animation, you can specify the time in milliseconds.
 ```html
-  <sequential-entrance delay="1000"> . . . </sequential-entrance>
+  <sequential-entrance delay="1000"> [...] </sequential-entrance>
 ```
 
 ### animation
@@ -62,5 +62,5 @@ Even you can use css animation libraries like animate.css ( https://daneden.gith
 ### tag
 By default, sequential-entrance render a 'span' tag wrapping its children, but you can customize the wrapper tag through 'tag' prop
 ```html
-  <sequential-entrance tag="section"> . . . </sequential-entrance>
+  <sequential-entrance tag="section"> [...] </sequential-entrance>
 ```
