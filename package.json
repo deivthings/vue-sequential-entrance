@@ -1,6 +1,6 @@
 {
   "name": "vue-sequential-entrance",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A vuejs plugin for creating sequential animation entrances of a group of elements",
   "main": "index.js",
   "scripts": {
