@@ -41,26 +41,26 @@ Sequential Entrance comes with four 'flavors': animation entrance from Top, from
 
 ## Customize with the following Props
 
-###delay
+### delay
 By default, the sequence animation have an interval of 250 milliseconds. If you need a faster or slower entrance animation, you can specify the time in milliseconds.
-```
-      <sequential-entrance delay="1000"> . . . </sequential-entrance>
-```
-
-###tag
-By default, sequential-entrance render a <span> tag wrapping its children, but you can customize the wrapper tag through 'tag' prop
-```
-      <sequential-entrance tag="section"> . . . </sequential-entrance>
+```html
+  <sequential-entrance delay="1000"> . . . </sequential-entrance>
 ```
 
-###animation
+### animation
 If you prefer don't use the built in animations (fromTop,fromRight,fromLeft,fromBottom) and use your custom css animation, you can easily using 'animation' props. Simply, put the class name of your animation and that's it.  
-```
-      <sequential-entrance animation="myCustomAnimationClassName"> [...] </sequential-entrance>
+```html
+  <sequential-entrance animation="myCustomAnimationClassName"> [...] </sequential-entrance>
 ```
 
 Even you can use css animation libraries like animate.css ( https://daneden.github.io/animate.css/ ). Import the entire css library or only the ones that you are goint to use and type the class name in animation prop.
 
+```html
+  <sequential-entrance animation="bounceIn"> [...] </sequential-entrance>
 ```
-      <sequential-entrance animation="bounceIn"> [...] </sequential-entrance>
+
+### tag
+By default, sequential-entrance render a <span> tag wrapping its children, but you can customize the wrapper tag through 'tag' prop
+```html
+  <sequential-entrance tag="section"> . . . </sequential-entrance>
 ```
