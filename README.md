@@ -53,14 +53,14 @@ If you prefer don't use the built in animations (fromTop,fromRight,fromLeft,from
   <sequential-entrance animation="myCustomAnimationClassName"> [...] </sequential-entrance>
 ```
 
-Even you can use css animation libraries like animate.css ( https://daneden.github.io/animate.css/ ). Import the entire css library or only the ones that you are goint to use and type the class name in animation prop.
+Even you can use css animation libraries like animate.css ( https://daneden.github.io/animate.css/ ). Import the entire css library or only the ones that you are going to use and type the class name in animation prop.
 
 ```html
   <sequential-entrance animation="bounceIn"> [...] </sequential-entrance>
 ```
 
 ### tag
-By default, sequential-entrance render a <span> tag wrapping its children, but you can customize the wrapper tag through 'tag' prop
+By default, sequential-entrance render a 'span' tag wrapping its children, but you can customize the wrapper tag through 'tag' prop
 ```html
   <sequential-entrance tag="section"> . . . </sequential-entrance>
 ```
