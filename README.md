@@ -5,6 +5,8 @@ Really lightweight
 
 ![](demo.gif)
 
+[Basic demo - codesandbox](https://codesandbox.io/s/r4yov1w80n)
+
 ## Installation
 In order to use into your vue project
 ```
@@ -27,8 +29,6 @@ And now, in your component file, wrap a list of elements with sequential-entranc
   </sequential-entrance>
 </template>
 ```
-[Basic demo - codesandbox](https://codesandbox.io/s/r4yov1w80n)
-
 
 Sequential Entrance comes with four 'flavors': animation entrance from Top, from right, from left and from bottom. By default, it uses from right, but you can select what you want this way:
 ```html
