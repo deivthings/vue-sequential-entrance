@@ -21,6 +21,6 @@ export default {
         child.data.staticClass += " " + animation;
       });
     }
-    return createElement(tag,children);
+    return createElement(tag,{class: props.contentClass},children);
   }
 };
