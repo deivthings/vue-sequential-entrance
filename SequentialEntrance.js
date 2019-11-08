@@ -21,6 +21,10 @@ export default {
         child.data.staticClass += " " + animation;
       });
     }
-    return createElement(tag,children);
+    return createElement(tag, {
+			attrs: {
+				class: data.staticClass
+			}
+		}, children);
   }
 };
