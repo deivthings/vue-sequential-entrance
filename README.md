@@ -18,8 +18,8 @@ npm install vue3-sequential-entrance
 Add to your main.js file
 
 ```javascript
-import sequentialEntrance from 'vue-sequential-entrance'
-import 'vue-sequential-entrance/vue-sequential-entrance.css'
+import sequentialEntrance from 'vue3-sequential-entrance'
+import 'vue3-sequential-entrance/vue-sequential-entrance.css'
 
 app.use(sequentialEntrance)
 ```
