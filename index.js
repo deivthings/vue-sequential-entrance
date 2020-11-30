@@ -1,9 +1,9 @@
-import SequentialEntrance from "./SequentialEntrance.js";
+import sequentialEntrance from "./sequentialEntrance.js";
 
-const VueSequentialEntrance = {
-  install(Vue, options) {
-    Vue.component("sequential-entrance", SequentialEntrance);
-  }
-};
+const install = app => {
+	app.component(sequentialEntrance.name, sequentialEntrance)
+}
 
-export default VueSequentialEntrance;
+sequentialEntrance.install = install
+
+export default sequentialEntrance
